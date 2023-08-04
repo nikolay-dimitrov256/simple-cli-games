@@ -7,7 +7,7 @@ while True:
     guessed_number = False
 
     while not guessed_number:
-        player_guess = input('Guess the number or [e]xit: ')
+        player_guess = input('Guess the number (1-100) or [e]xit: ')
         if player_guess.lower() == 'e':
             exit()
 
